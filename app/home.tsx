@@ -21,7 +21,7 @@ export default function PerfilScreen() {
 
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>🎓 Educación</Text>
-          <Text style={styles.text}>📘 TECnico en desarrollo de software <br />actualmente estudiando elTecnólogo en Análisis y Desarrollo de Software - SENA</Text>
+          <Text style={styles.text}>📘 Tecnólogo en Análisis y Desarrollo de Software - SENA</Text>
           <Text style={styles.text}>💡 Formación en React, React Native, JavaScript, y bases de datos.</Text>
         </View>
 
