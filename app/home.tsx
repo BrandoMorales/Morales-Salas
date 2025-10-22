@@ -6,9 +6,7 @@ export default function PerfilScreen() {
     <ScrollView contentContainerStyle={styles.container}>
       <View style={styles.card}>
         <Image
-          source={{
-            uri: "../assets/Imagen de WhatsApp 2025-10-22 a las 16.04.31_91897075.jpg", // 🔁 cambia esta URL por tu foto
-          }}
+          source={require("../assets/1.jpg")}
           style={styles.profileImage}
         />
         <Text style={styles.name}>Brandon Morales</Text>
@@ -23,7 +21,7 @@ export default function PerfilScreen() {
 
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>🎓 Educación</Text>
-          <Text style={styles.text}>📘 Tecnólogo en Análisis y Desarrollo de Software - SENA</Text>
+          <Text style={styles.text}>📘 TECnico en desarrollo de software <br />actualmente estudiando elTecnólogo en Análisis y Desarrollo de Software - SENA</Text>
           <Text style={styles.text}>💡 Formación en React, React Native, JavaScript, y bases de datos.</Text>
         </View>
 
